@@ -23,7 +23,7 @@ public class ListarFrame extends JFrameMelhorado {
 
 		JPanel panel = new JPanel(new GridBagLayout());
 		
-		var tabela = new TabelaFacil("Nome", "CPF", "Curso", "Matricula", "Especialidade");
+		var tabela = new TabelaFacil("Nome", "CPF", "Curso", "Projeto Extensão", "Especialidade");
 
 		for (var pessoa : pessoas) {
 			String nome = pessoa.getNome();
